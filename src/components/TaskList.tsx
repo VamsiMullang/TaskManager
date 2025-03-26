@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../store";
-import { Task, FilterType } from "../types/taskTypes";
+import { Task } from "../types/taskTypes";
 import TaskItem from "./TaskItem";
 import TaskForm from "./TaskForm";
 
